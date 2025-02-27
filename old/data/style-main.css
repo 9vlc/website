@@ -1,0 +1,111 @@
+@font-face
+{
+	font-family: 'zenith-z100';
+	src: url('fonts/zenith-z100.woff') format('woff');
+}
+
+@font-face
+{
+	font-family: 'xga-ai';
+	src: url('fonts/ibm-xga-ai-12x20.woff') format('woff');
+}
+
+@font-face
+{
+	font-family: 'txl1';
+	src: url('fonts/toshibatxl1-8x16.woff') format('woff');
+}
+
+@font-face
+{
+	font-family: 'txl2';
+	src: url('fonts/toshibatxl2-8x16.woff') format('woff');
+}
+
+.verybar
+{
+	width: 100%;
+	padding: 10px;
+	position: relative;
+	left: 100px;
+	background-image: url("images/colours/000.gif");
+	background-color: #000;
+	color: #fff;
+	font-family: 'txl1', sans-serif;
+	box-sizing: border-box;
+}
+
+.verybar > img
+{
+	width: inherit;
+	height: 100px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.left-bar
+{
+	box-sizing: border-box;
+	width: 150px;
+	height: 100%;
+	padding: 5px;
+	display: inline-block;
+	position: fixed;
+	bottom: 0;
+	background-image: url("images/colours/000.gif");
+	background-repeat: repeat;
+	color: #fff;
+	background-color: #000;
+}
+
+.text-n-stuff
+{
+	box-sizing: border-box;
+	width: 700px;
+	height: 601px;
+	padding: 5px;
+	background-image: url("images/tiles/tile-t-ccc.gif");
+	background-repeat: repeat;
+}
+
+.welcome
+{
+	opacity: 1;
+	white-space: pre-line;
+}
+
+footer
+{
+	padding: 12px;
+	text-align: center;
+}
+
+.main
+{
+	background-repeat: repeat;
+	position: relative;
+	left: 160px;
+}
+
+body
+{
+	margin: 0;
+	cursor: url('images/cursor.gif'), auto;
+	image-rendering: pixelated;
+	font-size: 16px;
+	font-family: 'txl2', sans-serif;
+}
+
+a
+{
+	color: inherit;
+	font-family: 'txl1', sans-serif;
+	text-decoration: none;
+}
+
+hr
+{
+	border-style: dotted;
+	border-width: 2px 0 0 0;
+	margin: 8px 20px 8px;
+}
