@@ -1,0 +1,23 @@
+@font-face
+{ font-family: 'code50-regular';
+  src: url('./fon/mplus-codel50-regular.woff') format('woff'); }
+
+@font-face
+{ font-family: 'code50-semibold';
+  src: url('./fon/mplus-codel50-semibold.woff') format('woff'); }
+
+body
+{ color: #eee;
+  background-color: #000;
+  font-size: 16px;
+  font-family: 'code50-regular', monospace, serif; }
+
+a
+{ text-decoration: none;
+  font-family: 'code50-semibold', monospace, serif; }
+
+a:link
+{ color: #fff; }
+
+a:hover
+{ color: #aaa; }

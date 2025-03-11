@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>blog / html rework</title>
+	<link href="../../dat/light.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head>
+
+<body bgcolor="#eee" text="#000" link="#555" vlink="#777" background="../../dat/img/bg.gif">
+	<h2>> I rewrote the website's HTML.</h2>
+	Quick update: I reworked this website to be more strictly compatible with HTML 4.01 and have a bit more of
+	backwards compatibility with older browsers.<br>
+	<br>
+	Current state of browser support:
+	<ul>
+		<li>Retrozilla seems to render most of the website correctly</li>
+		<li>Retro Ladybird doesn't render pages with framesets</li>
+		<li>Dillo fails to render framesets but the website is useable</li>
+		<li>WINE iexplore fails to open local files, HTTP error permanent redirect on Cloudflare pages</li>
+		<li>Links works perfectly <i>(relative to its minimalism)</i></li>
+		<li>Lynx does not support frames, fails with permanent redirect</li>
+		<li>w3m does not support frames, fails with permanent redirect</li>
+	</ul>
+	
+	TODO: add a fallback version of the site that works without frames.
+	<hr>
+	<i><a href="../blog.html">back to blog</a></i>
+</body>
+
+</html>

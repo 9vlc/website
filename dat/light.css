@@ -1,0 +1,33 @@
+@font-face
+{ font-family: 'code50-regular';
+  src: url('./fon/mplus-codel50-regular.woff') format('woff'); }
+
+@font-face
+{ font-family: 'code50-semibold';
+  src: url('./fon/mplus-codel50-semibold.woff') format('woff'); }
+
+body
+{ color: #000;
+  background-color: #eee;
+  background-image: url('./img/bg.gif');
+  background-repeat: repeat;
+  position: absolute;
+  font-size: 16px;
+  font-family: 'code50-regular', monospace, serif; }
+
+pre
+{ font-family: 'code50-regular', monospace, serif; }
+
+i
+{ color: #888; }
+
+a
+{ color: #777;
+  text-decoration: none;
+  font-family: 'code50-semibold', monospace, serif; }
+
+a:link
+{ color: #777; }
+
+a:hover
+{ color: #000; }
